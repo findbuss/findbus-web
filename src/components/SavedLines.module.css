@@ -1,0 +1,99 @@
+.container {
+  width: 24rem; /* 384px */
+  background-color: white;
+  padding: 1rem;
+  border-right: 1px solid #e5e7eb;
+  overflow-y: auto;
+}
+
+.searchContainer {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 0.75rem;
+  transform: translateY(-50%);
+  color: #6b7280;
+}
+
+.searchInput {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #61BB46;
+}
+
+.title {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.linesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lineItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.lineItem:hover {
+  background-color: #f9fafb;
+}
+
+.lineInfo {
+  display: flex;
+  align-items: center;
+}
+
+.lineColor {
+  width: 0.75rem;
+  height: 3rem;
+  border-radius: 9999px;
+  margin-right: 0.75rem;
+}
+
+.lineDetails {
+  flex-grow: 1;
+}
+
+.lineName {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.lineDestination {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.lineEtaContainer {
+  text-align: right;
+}
+
+.lineStatus {
+  font-size: 0.75rem;
+  color: #16a34a;
+}
+
+.noLinesText {
+  color: #6b7280;
+}

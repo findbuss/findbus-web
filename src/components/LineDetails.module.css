@@ -1,0 +1,88 @@
+.panel {
+  width: 350px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.lineInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lineColor {
+  width: 10px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.lineName {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.lineDestination {
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+.closeButton:hover {
+  color: #333;
+}
+
+.terminals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.stopsList {
+  flex-grow: 1;
+}
+
+.stopsHeader {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.stopItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  color: #444;
+}
+
+.stopIcon {
+  color: #888;
+}
